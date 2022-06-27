@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+.LOGO{
+    width: 20%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.LOGO img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+
+.rightNav{
+    width: 50%;
+    text-align:right ;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background{
+    background: url(../img/walk.jpg) ;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.boxmain{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+
+.secondhalf img{
+    width: 100%;
+    border: 4px soli white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-big{
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-small{
+    font-size: 18px;
+    color: aqua;
+}
+
+.btn{
+    padding: 10px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 10%;
+    background: none;
+    color: aqua;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+
+}
+
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
