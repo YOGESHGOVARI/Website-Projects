@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.logo{
+    background-color: red;
+}
+div a{
+    float: right;
+    margin: 20px ;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.title{
+    font-size: 50px;
+    color: white;
+}
+.main{
+    background: black;
+}
+p{
+    color: white;
+}
+.img{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.main1{
+    background-color: red;
+}
+.img1{
+    padding-left: 60px;
+}

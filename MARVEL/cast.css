@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.logo{
+    background-color: red;
+}
+a{
+    margin: 20px;
+    font-size: large;
+    color: black;
+    font-weight: bolder;
+    float: right;
+}
