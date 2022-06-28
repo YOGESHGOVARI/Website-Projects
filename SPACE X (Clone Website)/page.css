@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.TEXT{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding-left:100px;
+    font-weight: bolder;
+    width: 10em;
+    margin-left: 1em;
+    font-size: 40px;
+}
+.nav2{
+    background: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+nav ul{
+    float: left;
+    margin-left: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.background{
+    background: url("space\ x.webp");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.first{
+    padding: 250px;
+}
+.small{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.big{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.btns{
+    font-size: 20px;
+    padding: 10px;
+}
+/* .sp2{
+    background-image: url("space2.webp");
+    padding: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+} */
+.sp3{
+    background-image: url("space3.webp");
+    padding: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: fadeIn linear 7s;
+}
+.sp4{
+    background-image: url("space4.webp");
+    padding: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* .sp5{
+    background-image: url("space5.webp");
+    padding: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+} */
+
+.big2{
+    color: white;
+    font-size: 50px;
+}
+button{
+    border-radius: 10px;
+    margin: 15px;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align:center ;
+}
