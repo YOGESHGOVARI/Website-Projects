@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/parallax.css">
+    <title>parallax</title>
+</head>
+
+<body>
+    <header>
+        <label class="log">LOGO</label>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">WORK</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="img/stars.png" alt="star" id="stars">
+        <img src="img/moon.png" alt="star" id="moon">
+        <img src="img/mountains_behind.png" alt="star" id="mountb">
+        <h2 id="text">MOON LIGHT</h2>
+        <a href="#" id="btn">EXPLORE</a>
+        <img src="img/mountains_front.png" alt="star" id="mountf">
+    </section>
+    <div class="sec" id="sec">
+        <h2>PARALLAX SCROLLING EFFECT</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis expedita eveniet dolorem harum
+            aspernatur consectetur magnam, amet nesciunt aut possimus, illum provident ad? Vero quidem id quod, quas
+            omnis ipsam perferendis dicta vitae, obcaecati itaque sequi. Neque animi eaque soluta est iusto officia
+            veritatis asperiores maiores facilis at? Ex, distinctio?<br><br>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Laudantium reprehenderit, quo reiciendis qui eligendi est. Ducimus a possimus veniam dicta
+            porro, id facere facilis iusto harum reprehenderit sequi explicabo vero molestias quibusdam eos magni
+            doloribus provident veritatis esse doloremque cumque? Enim, iure. Labore, natus. Rerum, quae beatae.
+            Consectetur, quasi numquam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sapiente
+            illum reiciendis incidunt ea cum mollitia ipsam perspiciatis, odio ab eveniet tempore in deleniti! Aut,
+            neque? Nesciunt sapiente rem debitis excepturi optio iste perferendis velit, molestias error ducimus sequi
+            neque cumque laudantium assumenda esse omnis mollitia nisi! <br><br> Totam veniam nulla eos quo excepturi
+            provident
+            ullam perferendis accusantium vel modi dolores, inventore fugit aperiam placeat nobis impedit beatae libero
+            esse laudantium, necessitatibus voluptate! Accusamus obcaecati ab, veniam repellat dignissimos enim illum
+            cumque porro. Laboriosam ipsam officia totam dignissimos magnam, quo molestias aut unde ut eum nostrum sit
+            delectus quam pariatur? Ab? <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus optio
+            eligendi molestias corporis sequi hic impedit repellat totam qui facilis, quia doloremque quas vitae
+            quibusdam. Ipsum esse debitis quibusdam voluptate! Voluptatibus, assumenda, asperiores necessitatibus quidem
+            id eaque sit temporibus officiis praesentium architecto accusantium corporis aperiam odit iure aliquid
+            labore nostrum earum officia ut doloribus consequuntur error corrupti adipisci. Aliquid quam recusandae est
+            cum totam hic sunt exercitationem voluptatum unde libero accusamus, ullam iusto ipsa? Qui, amet
+            consequuntur. Ipsum reiciendis temporibus aut veritatis! Delectus, ab magni dolor deleniti, quo tempora illo
+            error a voluptate alias vitae perferendis expedita ipsa reprehenderit magnam.</p>
+
+        <script>
+            let stars = document.getElementById('stars');
+            let moon = document.getElementById('moon');
+            let mountb = document.getElementById('mountb');
+            let text = document.getElementById('text');
+            let btn = document.getElementById('btn');
+            let mountf = document.getElementById('mountf');
+
+            window.addEventListener('scroll', function () {
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px';
+                moon.style.top = value * 1.05 + 'px';
+                mountb.style.top = value * 0.5 + 'px';
+                mountf.style.top = value * 0 + 'px';
+                text.style.marginRight = value * 4 + 'px';
+            })
+        </script>
+
+
+</body>
+
+</html>
