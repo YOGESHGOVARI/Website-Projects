@@ -1,12 +1,12 @@
 This website is one of my favorite website.Being a Marvel fan I tried to make this website the best website of mine.
 According to the theme, I have added auido which will play once I open the website.
 
-![m1](https://user-images.githubusercontent.com/73241374/176376303-30d8ccf8-0ba1-4bd2-9b86-5502ad057c97.png)
+![m1](https://user-images.githubusercontent.com/73241374/176377453-80845362-374e-4713-8a03-24806552d2c4.png)
 
-![m2](https://user-images.githubusercontent.com/73241374/176376316-3c6b9ac3-bacb-425a-909f-c5520816fe0d.png)
+![m2](https://user-images.githubusercontent.com/73241374/176377464-fd8cca8e-b240-4854-b100-c0105d419e20.png)
 
-![m3](https://user-images.githubusercontent.com/73241374/176376331-aea03b96-5177-41c7-b2e4-a9b74da2061a.png)
+![m3](https://user-images.githubusercontent.com/73241374/176377469-f4f91d30-3869-41fe-8a1f-e0540c3d24a6.png)
 
-![m4](https://user-images.githubusercontent.com/73241374/176376346-36bbcfde-9579-47bb-be5a-a8909715fbb8.png)
+![m4](https://user-images.githubusercontent.com/73241374/176377482-1c5aa793-e7e4-424f-80cd-62a7e3b17159.png)
 
-![m5](https://user-images.githubusercontent.com/73241374/176376362-5dbf5684-9639-4c65-b146-fa63a252bf8b.png)
+![m5](https://user-images.githubusercontent.com/73241374/176377497-4626e086-5fe1-4b83-b55f-c6ec4805b242.png)
